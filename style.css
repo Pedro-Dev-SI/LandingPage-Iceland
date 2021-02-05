@@ -41,14 +41,47 @@ body{
 
 .ice{
     position: absolute;
-    left: 60%;
+    left: 59%;
     top: 25%;
     font-size: 250px;
-    color: rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.text-box{
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    left: 30%;
+}
+
+.text-box .num{
+    font-size: 64px;
+    color: #464848;
+    font-weight: bold;
+    margin-right: 20px;
 }
 
 
+.text-content{
+    width: 400px;
+}
 
+.text-content h2{
+    font-size: 48px;
+    color: #fff;
+}
+
+.text-content p{
+    font-size: 14px;
+    color: #464848;
+    text-align: justify;
+}
+
+.text-content .trips{
+    display: block;
+    margin-top: 20px;
+    padding: 0;
+}
 
 
 
